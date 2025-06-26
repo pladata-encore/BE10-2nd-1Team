@@ -1,0 +1,112 @@
+/* 일반 CSS (모듈 아님) - src/style/login.css 등으로 저장 가능 */
+
+.login-modal-container {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+}
+
+.login-title .highlight {
+    color: #2563eb;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 9999px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login-input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #d1d5db;
+    padding: 0.75rem 0.5rem;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.login-input::placeholder {
+    color: #9ca3af;
+}
+
+.option-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+}
+
+.login-button {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.login-button.active {
+    background-color: #3b82f6;
+    cursor: pointer;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-top: 1.5rem;
+}
+
+.footer-text button {
+    color: #2563eb;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #9ca3af;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+.close-button:hover {
+    color: #111827;
+}

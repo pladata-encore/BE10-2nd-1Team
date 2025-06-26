@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "version": "0.0.0",
+  "packages": [
+    "lawform-container",
+    "lawform-header",
+    "lawform-footer",
+    "lawform-main",
+    "lawform-inquiry",
+    "lawform-aboutus",
+    "modal-test",
+    "lawform-topic1-app",
+    "register-page"
+  ],
+  "hoist": true
+}

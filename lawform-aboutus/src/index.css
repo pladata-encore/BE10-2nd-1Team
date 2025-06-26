@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in-left {
+    animation: fadeInLeft 0.8s ease-out forwards;
+}
+
+.animate-fade-in-up-delay {
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.animate-fade-in-up-delay-2 {
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
+
+.scroll-fade-up {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-fade-up.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-fade-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-fade-left.in-view {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.scroll-fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.scroll-fade-in.in-view {
+    opacity: 1;
+}
+
+/* 지연 효과 */
+.scroll-fade-up-delay {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1.5s ease-out;
+}
+
+.scroll-fade-up-delay.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.scroll-fade-up-delay-2 {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease-out 0.4s;
+}
+
+.scroll-fade-up-delay-2.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
