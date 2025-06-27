@@ -1,4 +1,27 @@
+<h3>프로젝트명 : Law_co_code</h3>
+<hr/>
 이 프로젝트는 Micro Frontend 아키텍처를 사용한 법률 서비스 플랫폼입니다.
+<p></p>
+
+
+
+😎 팀원소개
+
+<table>
+   <tr>
+    <td align="center"><b><a href="https://github.com/IsKJH">김지한</a></b></td>
+    <td align="center"><b><a href="https://github.com/HIhyen00">김혜인</a></b></td>
+    <td align="center"><b><a href="https://github.com/baejina10">배진아</a></b></td>
+    <td align="center"><b><a href="https://github.com/leeeeegun">이의건</a></b></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/IsKJH"><img src="https://avatars.githubusercontent.com/u/207959007?v=4" width="100px" /></a></td>
+    <td align="center"><a href="https://github.com/HIhyen00"><img src="https://avatars.githubusercontent.com/u/206553639?v=4" width="100px" /></a></td>
+    <td align="center"><a href="https://github.com/baejina10"><img src="https://avatars.githubusercontent.com/u/207958946?v=4" width="100px" /></a></td>  
+    <td align="center"><a href="https://github.com/leeeeegun"><img src="https://avatars.githubusercontent.com/u/211801669?v=4" width="100px" /></a></td>  
+  </tr>
+
+  </table>
 
   📋 프로젝트 소개
 
